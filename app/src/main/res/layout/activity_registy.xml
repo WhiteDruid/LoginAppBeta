@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5fa9a8">
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username" />
+
+        <EditText
+            android:id="@+id/PassEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="passWord"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sing in"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
